@@ -10,7 +10,7 @@ import java.util.Map;
 @Service
 public class GeminiService {
 
-    private static final String GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyB55aJb1ZWWVI-xytJLUWEXgFqfNrpVa2g";
+    private static final String GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=YOUR_API_KEY";
 
     public String analyzeProductWithUserHealth(String productDetails, String userDetails) {
         RestTemplate restTemplate = new RestTemplate();
